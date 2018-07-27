@@ -102,51 +102,6 @@ plot_table <- dbGetQuery(fia, "SELECT *
                          FROM plot
                          WHERE statecd=1")
 
-                        FROM pop_eval_grp peg, plotsnap ps, tree t, cond c
-                        WHERE ps.cn = c.plt_cn
-                        AND c.condid = t.condid
-                        AND c.plt_cn = t.plt_cn
-                        AND peg.cn = ps.eval_grp_cn
-                        AND ps.statecd=1
-                        AND ps.countycd=1
-                        GROUP BY peg.eval_grp, peg.eval_grp_descr, t.cn, ps.cn")
-
-# plotsnap_cn is the same as tree_cn (as it should be), so I drop it from the next query
-# now I want to check how the eval group year compares to the inventory year
-
-plots.al2 <- dbGetQuery(fia, 
-                        "SELECT t.cn AS tree_cn, peg.eval_grp, 
-                        peg.eval_grp_descr, t.invyr
-                        FROM pop_eval_grp peg, plotsnap ps, tree t, cond c
-                        WHERE ps.cn = c.plt_cn
-                        AND c.condid = t.condid
-                        AND c.plt_cn = t.plt_cn
-                        AND peg.cn = ps.eval_grp_cn
-                        AND ps.statecd=1
-                        AND ps.countycd=1
-                        GROUP BY peg.eval_grp, peg.eval_grp_descr, 
-                        t.cn, t.invyr")
-
-# the inventory do not match up with the eval group year
-# try to find a pattern
-# now I am going to look at the volume variable to see how it varies over eval groups and years
-
-plots.al3 <- dbGetQuery(fia, 
-                        "SELECT t.cn AS tree_cn, peg.eval_grp, 
-                        peg.eval_grp_descr, t.invyr, t.volcfnet
-                        FROM pop_eval_grp peg, plotsnap ps, tree t, cond c
-                        WHERE ps.cn = c.plt_cn
-                        AND c.condid = t.condid
-                        AND c.plt_cn = t.plt_cn
-                        AND peg.cn = ps.eval_grp_cn
-                        AND ps.statecd=1
-                        AND ps.countycd=1
-                        GROUP BY peg.eval_grp, peg.eval_grp_descr, 
-                        t.cn")
-
-# continue to build up the code in different ways to see if you can find what you are looking for.
-
-
 library(tidyverse)
 subset_removal_only <- filter(Harvest.AL, TRTCD1==10)
 subset_removal_replant <- filter(practice3, TRTCD1==10 & TRTCD2==30)
