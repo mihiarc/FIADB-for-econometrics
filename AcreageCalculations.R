@@ -11,6 +11,54 @@ setwd("D:/GroupWork/FIA Data")
 
 fia <- dbConnect(SQLite(), 'D:/GroupWork/FIA DataFIADB.db')
 
+#Two ways to find acres per plot
+#In Restricted, two additions are pulled left for viewing ease: they blow up the plot acreage numbers
+TimberlandPlotAcresRestricted <- dbGetQuery(fia, "SELECT peg.eval_grp EvalGroup, peg.eval_grp_descr EvalGroupDescription, 
+                                      c.STATECD State, c.countycd County, 
+                                      ps.cn PlotID,  
+                                      SUM(ps.expcurr*c.condprop_unadj*ps.adj_expcurr) PlotAcres, 
+                                      c.invyr InvYr, c.siteclcd SiteClass, c.stdage StandAge
+                                      FROM pop_eval_grp peg,
+                                      plotsnap ps,
+                                      cond c,
+                                      tree t
+                                      WHERE ps.cn = c.plt_cn
+                                      AND peg.cn = ps.eval_grp_cn
+                                      AND c.plt_cn = t.plt_cn
+                                      AND c.condid = t.condid
+                        AND t.treeclcd = 2
+                                      AND c.cond_status_cd = 1
+                        AND t.statuscd = 1
+                                      AND c.reservcd = 0
+                                      AND (c.fortypcd=160 OR c.fortypcd=161 OR c.fortypcd=162 OR
+                                           c.fortypcd=163 OR c.fortypcd=164 OR c.fortypcd=165 OR c.fortypcd=166 OR 
+                                           c.fortypcd=167 OR c.fortypcd=168)
+                                      AND (c.siteclcd=1 Or c.siteclcd=2 or c.siteclcd=3 or
+                                            c.siteclcd=4 or c.siteclcd=5 or c.siteclcd=6)
+                                      GROUP BY peg.eval_grp, peg.eval_grp_descr, c.STATECD, County, ps.cn
+                                      ORDER BY peg.eval_grp DESC, County DESC, ps.cn DESC, PlotAcres DESC")
+
+TimberlandPlotAcres <- dbGetQuery(fia, "SELECT peg.eval_grp EvalGroup, peg.eval_grp_descr EvalGroupDescription, 
+                                      c.STATECD State, c.countycd County, 
+                                  ps.cn PlotID,  
+                                  SUM(ps.expcurr*c.condprop_unadj*ps.adj_expcurr) PlotAcres, 
+                                  c.invyr InvYr, c.siteclcd SiteClass, c.stdage StandAge
+                                  FROM pop_eval_grp peg,
+                                  plotsnap ps,
+                                  cond c
+                                  WHERE ps.cn = c.plt_cn
+                                  AND peg.cn = ps.eval_grp_cn
+                                  AND c.cond_status_cd = 1
+                                  AND c.reservcd = 0
+                                  AND (c.fortypcd=160 OR c.fortypcd=161 OR c.fortypcd=162 OR
+                                  c.fortypcd=163 OR c.fortypcd=164 OR c.fortypcd=165 OR c.fortypcd=166 OR 
+                                  c.fortypcd=167 OR c.fortypcd=168)
+                                  AND (c.siteclcd=1 Or c.siteclcd=2 or c.siteclcd=3 or
+                                  c.siteclcd=4 or c.siteclcd=5 or c.siteclcd=6) 
+                                  GROUP BY peg.eval_grp, peg.eval_grp_descr, c.STATECD, County, ps.cn
+                                  ORDER BY peg.eval_grp DESC, County DESC, ps.cn DESC, PlotAcres DESC")
+
+
 trees_fortyp <- dbGetQuery(fia, "SELECT peg.eval_grp,
                                 Sum([EXPVOL]*[TPA_UNADJ]*
                     CASE WHEN t.dia IS NULL
