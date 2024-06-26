@@ -1,3 +1,3 @@
 # Querying_FIADB
 
-Query examples using SQLite public version of the FIA Database.
+Query examples using SQLite in R using the public version of the FIA Database.
