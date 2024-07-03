@@ -1,0 +1,107 @@
+[
+    {
+      "name": "CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EVAL_GRP_CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "RSCD",
+      "type": "INT64",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EVALID",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EVAL_DESCR",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "STATECD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "LOCATION_NM",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },   
+    {
+        "name": "REPORT_YEAR_NM",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "START_INVYR",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+      }, 
+      {
+        "name": "END_INVYR",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+      }, 
+      {
+        "name": "LAND_ONLY",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "TIMBERLAND_ONLY",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "GROWTH_ACCT",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "ESTN_METHOD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "NOTES",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "CREATED_BY",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+      "name": "CREATED_DATE",
+      "type": "DATETIME",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CREATED_IN_INSTANCE",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_BY",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_DATE",
+      "type": "DATETIME",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_IN_INSTANCE",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    }
+  ]

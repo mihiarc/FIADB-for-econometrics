@@ -1,0 +1,152 @@
+[
+    {
+      "name": "CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ESTN_UNIT_CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "RSCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EVALID",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ESTN_UNIT",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "STRATUMCD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "STRATUM_DESCR",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+    {
+      "name": "STATECD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "P1POINTCNT",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },   
+    {
+        "name": "P2POINTCNT",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "EXPNS",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+      }, 
+      {
+        "name": "ADJ_FACTOR_MACR",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+      }, 
+      {
+        "name": "ADJ_FACTOR_SUBP",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "ADJ_FACTOR_MICR",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "ADJ_FACTOR_CWD",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "ADJ_FACTOR_FWD_SM",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "ADJ_FACTOR_FWD_LG",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "ADJ_FACTOR_DUFF",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "CREATED_BY",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+      "name": "CREATED_DATE",
+      "type": "DATETIME",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CREATED_IN_INSTANCE",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_BY",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_DATE",
+      "type": "DATETIME",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_IN_INSTANCE",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "ADJ_FACTOR_PILE",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "ADJ_FACTOR_REGEN_MICR",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "ADJ_FACTOR_INV_SUBP",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "ADJ_FACTOR_P2VEG_SUBP",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "ADJ_FACTOR_GRNDLYR_MICROQUAD",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "ADJ_FACTOR_SOIL",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    }
+  ]

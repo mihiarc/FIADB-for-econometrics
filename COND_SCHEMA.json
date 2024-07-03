@@ -1,0 +1,792 @@
+[
+    {
+      "name": "CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PLT_CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "INVYR",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "STATECD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "UNITCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "COUNTYCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PLOT",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CONDID",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "COND_STATUS_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },   
+    {
+      "name": "COND_NONSAMPLE_REASN_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },  
+    {
+      "name": "RESERVCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    }, 
+    {
+      "name": "OWNCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    }, 
+    {
+      "name": "OWNGRPCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },  
+    {
+        "name": "FORINDCD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "ADFORCD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "FORTYPCD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "FLDTYPCD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "MAPDEN",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "STDAGE",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "STDSZCD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "FLDSZCD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "SITECLCD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "SICOND",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "SIBASE",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "SISP",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "STORGCD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "STDORGSP",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },   
+    {
+        "name": "PROP_BASIS",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "CONDPROP_UNADJ",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    }, 
+    {
+        "name": "MICRPROP_UNADJ",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+     }, 
+     {
+        "name": "SUBPPROP_UNADJ",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "MACRPROP_UNADJ",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SLOPE",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "ASPECT",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "PHYSCLCD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "GSSTKCD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "ALSTKCD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DSTRBCD1",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DSTRBYR1",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DSTRBCD2",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DSTRBYR2",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DSTRBCD3",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DSTRBYR3",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "TRTCD1",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "TRTYR1",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },   
+    {
+        "name": "TRTCD2",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "TRTYR2",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+     }, 
+     {
+        "name": "TRTCD3",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+     }, 
+     {
+        "name": "TRTYR3",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "PRESNFCD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "BALIVE",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "FLDAGE",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "ALSTK",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "GSSTK",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    }, 
+    {
+        "name": "FORTYPCDCALC",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "HABTYPCD1",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "HABTYPCD1_PUB_CD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "HABTYPCD1_DESCR_PUB_CD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "HABTYPCD2",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "HABTYPCD2_PUB_CD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "HABTYPCD2_DESCR_PUB_CD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "MIXEDCONFCD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "VOL_LOC_GRP",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },   
+    {
+        "name": "SITECLCDEST",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SITETREE_TREE",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    }, 
+    {
+        "name": "SITECL_METHOD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    }, 
+    {
+        "name": "CARBON_DOWN_DEAD",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "CARBON_LITTER",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "CARBON_SOIL_ORG",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    }, 
+    {
+        "name": "CARBON_UNDERSTORY_AG",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "CARBON_UNDERSTORY_BG",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },   
+    {
+        "name": "CREATED_BY",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+      "name": "CREATED_DATE",
+      "type": "DATETIME",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CREATED_IN_INSTANCE",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_BY",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_DATE",
+      "type": "DATETIME",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_IN_INSTANCE",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "CYCLE",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SUBCYCLE",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SOIL_ROOTING_DEPTH_PNW",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "GROUND_LAND_CLASS_PNW",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "PLANT_STOCKABILITY_FACTOR_PNW",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "STND_COND_CD_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "STND_STRUC_CD_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "STUMP_CD_PNWRS",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "FIRE_SRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "GRAZING_SRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "HARVEST_TYPE1_SRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "HARVEST_TYPE2_SRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "HARVEST_TYPE3_SRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "LAND_USE_SRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "OPERABILITY_SRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },   
+    {
+        "name": "STAND_STRUCTURE_SRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "NF_COND_STATUS_CD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    }, 
+    {
+        "name": "NF_COND_NONSAMPLE_REASN_CD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    }, 
+    {
+        "name": "CANOPY_CVR_SAMPLE_METHOD_CD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "LIVE_CANOPY_CVR_PCT",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "LIVE_MISSING_CANOPY_CVR_PCT",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "NBR_LIVE_STEMS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "OWNSUBCD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "INDUSTRIALCD_FIADB",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "RESERVCD_5",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "ADMIN_WITHDRAWN_CD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "CHAINING_CD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "LAND_COVER_CLASS_CD_RET",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "AFFORESTATION_CD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "PREV_AFFORESTATION_CD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "DWM_FUELBD_TYPCD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "NVCS_PRIMARY_CLASS",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "NVCS_LEVEL_1_CD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "NVCS_LEVEL_2_CD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "NVCS_LEVEL_3_CD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "NVCS_LEVEL_4_CD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "NVCS_LEVEL_5_CD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "NVCS_LEVEL_6_CD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "NVCS_LEVEL_7_CD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "NVCS_LEVEL_8_CD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "AGE_BASIS_CD_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "COND_STATUS_CHNG_CD_RMRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CRCOVPCT_RMRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "DOMINANT_SPECIES1_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "DOMINANT_SPECIES2_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "DOMINANT_SPECIES3_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DSTRBCD1_P2A",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "DSTRBCD2_P2A",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "DSTRBCD3_P2A",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "DSTRBYR1_P2A",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DSTRBYR2_P2A",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "DSTRBYR3_P2A",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "FLDTYPCD_30",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "FOREST_COMMUNITY_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "LAND_USECD_RMRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "MAICF",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "PCTBARE_RMRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "QMD_RMRS",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "RANGETYPCD_RMS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SDIMAX_RMRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "SDIPCT_RMRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SDI_RMRS",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "STAND_STRUCTURE_ME_NERS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "TREES_PRESENT_NCRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "TREES_PRESENT_NERS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "TRTCD1_P2A",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "TRTCD2_P2A",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "TRTCD3_P2A",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "TRTOPCD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "TRTYR1_P2A",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "TRTYR2_P2A",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "TRTYR3_P2A",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "LAND_COVER_CLASS_CD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SIEQN_REF_CD",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SICOND_FVS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "SIBASE_FVS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SISP_FVS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SIEQN_REF_CD_FVS",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "MQUADPROP_UNADJ",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SOILSPROP_UNADJ",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "FOREST_COND_STATUS_CHANGE_CD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    }
+  ]

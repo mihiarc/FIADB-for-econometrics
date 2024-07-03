@@ -1,0 +1,367 @@
+[
+    {
+      "name": "CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SRV_CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CTY_CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_PLT_CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "INVYR",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "STATECD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "UNITCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "COUNTYCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PLOT",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PLOT_STATUS_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PLOT_NONSAMPLE_REASN_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MEASYEAR",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MEASMON",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MEASDAY",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "REMPER",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "KINDCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DESIGNCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "RDDISTCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "WATERCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "LAT",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "LON",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ELEV",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "GROW_TYP_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MORT_TYP_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "P2PANEL",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "P3PANEL",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ECOSUBCD",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CONGCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MANUAL",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "KINDCD_NC",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "QA_STATUS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CREATED_BY",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CREATED_DATE",
+      "type": "DATETIME",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CREATED_IN_INSTANCE",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_BY",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_DATE",
+      "type": "DATETIME",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_IN_INSTANCE",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MICROPLOT_LOC",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DECLINATION",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EMAP_HEX",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SAMP_METHOD_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SUBP_EXAMINE_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MACRO_BREAKPOINT_DIA",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "INTENSITY",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CYCLE",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SUBCYCLE",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ECO_UNIT_PNW",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "TOPO_POSITION_PNW",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "NF_SAMPLING_STATUS_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "NF_PLOT_STATUS_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "NF_PLOT_NONSAMPLE_REASN_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "P2VEG_SAMPLING_STATUS_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "P2VEG_SAMPLING_LEVEL_DETAIL_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "INVASIVE_SAMPLING_STATUS_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "INVASIVE_SPECIMEN_RULE_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DESIGNCD_P2A",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MANUAL_DB",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SUBPANEL",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CONDCHNGCD_RMRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "FUTFORCD_RMRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MANUAL_NCRS",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MANUAL_NERS",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MANUAL_RMRS",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PAC_ISLAND_PNWRS",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PLOT_SEASON_NERS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PRECIPITATION",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_MICROPLOT_LOC_RMRS",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_PLOT_STATUS_CD_RMRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "REUSECD1",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "REUSECD2",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "REUSECD3",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "GRND_LYR_SAMPLING_STATUS_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "GRND_LYR_SAMPLING_METHOD_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    }
+]

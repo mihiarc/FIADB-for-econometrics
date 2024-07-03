@@ -1,0 +1,1016 @@
+[
+    {
+      "name": "CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PLT_CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_TRE_CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "INVYR",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "STATECD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "UNITCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "COUNTYCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PLOT",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SUBP",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "TREE",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CONDID",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "AZIMUTH",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DIST",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PREVCOND",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "STATUSCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SPCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SPGRPCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DIA",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DIAHTCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "HT",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "HTCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ACTUALHT",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "TREECLCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CR",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CCLCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "TREEGRCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "AGENTCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CULL",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DAMLOC1",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DAMTYP1",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DAMSEV1",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DAMLOC2",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DAMTYP2",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DAMSEV2",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DECAYCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "STOCKING",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "WDLDSTEM",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCFNET",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCFGRS",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCSNET",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCSGRS",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLBFNET",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLBFGRS",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCFSND",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DIACHECK",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MORTYR",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SALVCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "UNCRCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CPOSCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CLIGHTCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CVIGORCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CDENCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CDIEBKCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "TRANSCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "TREEHISTCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "BHAGE",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "TOTAGE",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CULLDEAD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CULLFORM",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CULLMSTOP",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CULLBF",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CULLCF",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "BFSND",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CFSND",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SAWHT",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "BOLEHT",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "FORMCL",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "HTCALC",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "HRDWD_CLUMP_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SITREE",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },{
+      "name": "CREATED_BY",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CREATED_DATE",
+      "type": "DATETIME",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CREATED_IN_INSTANCE",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_BY",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_DATE",
+      "type": "DATETIME",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_IN_INSTANCE",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MORTCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "HTDMP",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ROUGHCULL",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MIST_CL_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CULL_FLD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "RECONCILED",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PREVDIA",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "P2A_GRM_FLG",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    }, 
+    {
+      "name": "TREECLCD_NERS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },  
+    {
+      "name": "TREECLCD_SRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    }, 
+    {
+      "name": "TREECLCD_NCRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    }, 
+    {
+      "name": "TREECLCD_RMRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },  
+    {
+        "name": "STANDING_DEAD_CD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "PREV_STATUS_CD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "PREV_WDLDSTEM",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "TPA_UNADJ",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "DRYBIO_BOLE",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "DRYBIO_STUMP",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "DRYBIO_BG",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CARBON_AG",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CARBON_BG",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CYCLE",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "SUBCYCLE",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "BORED_CD_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DAMLOC1_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DAMLOC2_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },   
+    {
+        "name": "DIACHECK_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "DMG_AGENT1_CD_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    }, 
+    {
+        "name": "DMG_AGENT2_CD_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+     }, 
+     {
+        "name": "DMG_AGENT3_CD_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "MIST_CL_CD_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SEVERITY1_CD_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SEVERITY1A_CD_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SEVERITY1B_CD_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SEVERITY2_CD_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "SEVERITY2A_CD_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "SEVERITY2B_CD_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "SEVERITY3_CD_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "UNKNOWN_DAMTYP1_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "UNKNOWN_DAMTYP2_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "PREV_PNTN_SRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DISEASE_SRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DIEBACK_SEVERITY_SRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DAMAGE_AGENT_CD1",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },   
+    {
+        "name": "DAMAGE_AGENT_CD2",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "DAMAGE_AGENT_CD3",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+     }, 
+     {
+        "name": "CENTROID_DIA",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+     }, 
+     {
+        "name": "CENTROID_DIA_HT",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "CENTROID_DIA_HT_ACTUAL",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "UPPER_DIA",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "UPPER_DIA_HT",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "VOLCSSND",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "DRYBIO_SAWLOG",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    }, 
+    {
+        "name": "DAMAGE_AGENT_CD1_SRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DAMAGE_AGENT_CD2_SRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DAMAGE_AGENT_CD3_SRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "DRYBIO_AG",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "ACTUALHT_CALC",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "ACTUALHT_CALC_CD",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CULL_BF_ROTTEN",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CULL_BF_ROTTEN_CD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CULL_BF_ROUGH",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CULL_BF_ROUGH_CD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },   
+    {
+        "name": "PREVDIA_FLD",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "TREECLCS_31_NCRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    }, 
+    {
+        "name": "TREE_GRADE_NRCS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    }, 
+    {
+        "name": "BOUGHS_AVAILABLE_NCRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "BOUGHS_HRVST_NCRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "TREECLCD_31_NERS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    }, 
+    {
+        "name": "AGENTCD_NERS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "BFSNDCD_NERS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },   
+    {
+        "name": "AGECHKCD_RMRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+      "name": "PREV_ACTUALHT_RMRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_AGECHKCD_RMRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_BHAGE_RMRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_HT_RMRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_TOTAGE_RMRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+        "name": "PREV_TREECLCD_RMRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "RADAGECD_RMRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "RAGGRW_RMRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "VOLBSGRS",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "VOLBSNET",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },  
+    {
+        "name": "SAPLING_FUSIFORM_SRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "EPIPHYTE_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "ROOT_HT_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CAVITY_USE_PNWRS",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CORE_LENGTH_PNWRS",
+        "type": "BIGNUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CULTURALLY_KILLED_PNWRS",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+      "name": "DIA_EST_PNWRS",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "GST_PNWRS",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "INC10YR_PNWRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "INC5YRHT_PNWRS",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "INC5YR_PNWRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "RING_COUNT_INNER_2INCHES_PNWRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "RING_COUNT_PNWRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },   
+    {
+      "name": "SNAG_DIS_CD_PNWRS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CONEPRESCD1",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CONEPRESCD2",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CONEPRESCD3",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MASTCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLTSGRS",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLTSGRS_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLTSSND",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLTSSND_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCFGRS_STUMP",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },   
+    {
+      "name": "VOLCFGRS_STUMP_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCFSND_STUMP",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCFSND_STUMP_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCFGRS_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCFGRS_TOP",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCFGRS_TOP_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCFSND_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCFSND_TOP",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },   
+    {
+      "name": "VOLCFSND_TOP_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCFNET_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCSGRS_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCSSND_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "VOLCSNET_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DRYBIO_STEM",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DRYBIO_STEM_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },   
+    {
+      "name": "DRYBIO_STUMP_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DRYBIO_BOLE_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DRYBIO_BRANCH",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DRYBIO_FOLIAGE",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DRYBIO_SAWLOG_BARK",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_ACTUALHT_FLD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_HT_FLD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    }
+]

@@ -1,0 +1,467 @@
+[
+    {
+      "name": "CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SRV_CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CTY_CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PREV_PLT_CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "INVYR",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "STATECD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "UNITCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "COUNTYCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PLOT",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PLOT_STATUS_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "PLOT_NONSAMPLE_REASN_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MEASYEAR",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MEASMON",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MEASDAY",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "REMPER",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "KINDCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DESIGNCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "RDDISTCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "WATERCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "LAT",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "LON",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ELEV",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "GROW_TYP_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MORT_TYP_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "P2PANEL",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "P3PANEL",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ECOSUBCD",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CONGCD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MANUAL",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MANUAL_DB",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SUBPANEL",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "KINDCD_NC",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "QA_STATUS",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CREATED_BY",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CREATED_DATE",
+      "type": "DATETIME",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CREATED_IN_INSTANCE",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_BY",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_DATE",
+      "type": "DATETIME",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MODIFIED_IN_INSTANCE",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MICROPLOT_LOC",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "DECLINATION",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EMAP_HEX",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SAMP_METHOD_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SUBP_EXAMINE_CD",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "MACRO_BREAKPOINT_DIA",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "INTENSITY",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "CYCLE",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "SUBCYCLE",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ECO_UNIT_PNW",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "TOPO_POSITION_PNW",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EVAL_GRP_CN",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EVAL_GRP",
+      "type": "NUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EXPALL",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EXPCURR",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EXPVOL",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EXPGROW",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EXPMORT",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EXPREMV",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EXPCHNG",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EXPDWM",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EXPREGEN",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EXPINV",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EXPP2VEG",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EXPSOIL",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EXPCRWN",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "EXPGRNDLYR",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPALL",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPCURR",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPVOL_MACR",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPVOL_SUBP",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPVOL_MICR",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPGROW_MACR",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPGROW_SUBP",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPGROW_MICR",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPMORT_MACR",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPMORT_SUBP",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPMORT_MICR",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPREMV_MACR",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPREMV_SUBP",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPREMV_MICR",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPCHNG_MACR",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPCHNG_SUBP",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPCHNG_MICR",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPDWM_CWD",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPDWM_FWD_SM",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPDWM_FWD_LG",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPDWM_DUFF",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPDWM_PILE",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPREGEN_MICR",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPINV_SUBP",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_ESPP2VEG_SUBP",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPSOIL",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "ADJ_EXPGRNDLYR_MICROQUAD",
+      "type": "BIGNUMERIC",
+      "mode": "NULLABLE"
+    }
+]
